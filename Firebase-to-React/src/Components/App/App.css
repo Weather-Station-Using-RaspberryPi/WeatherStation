@@ -1,0 +1,374 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #00f260; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #0575e6,
+    #00f260
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0575e6,
+    #00f260
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dataEntry {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 580px;
+  margin-bottom: 20px;
+}
+.Header h1 {
+  text-align: center;
+}
+.input {
+  margin-left: 20px;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.buttons {
+  margin-left: 100px;
+}
+
+.transperant {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* SUNNY's CSS */
+.Header {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+}
+.Header h1 {
+}
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.headerImg1,
+.headerImg3 {
+  width: 5rem;
+  padding: 1.5rem;
+}
+.headerImg2 {
+  width: 17rem;
+  height: 5rem;
+  padding: 1.5rem;
+}
+.img {
+  width: 30%;
+  height: 30%;
+  /* margin-top: 10px; */
+}
+.Title {
+  text-align: center;
+  color: white;
+}
+
+.fa-xs {
+  font-size: 0.5em !important;
+}
+
+.about {
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 250px;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  margin: 1rem;
+  border: 1x solid black;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+button:focus,
+a:focus {
+  outline: none;
+}
+
+.photo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 70%;
+  border-radius: 0.25rem;
+}
+
+.nimish {
+  width: 90%;
+  height: 50%;
+  border-radius: 0.25rem;
+}
+
+.rahul {
+  width: 90%;
+  height: 52%;
+  border-radius: 0.25rem;
+}
+
+.smith {
+  width: 90%;
+  height: 70%;
+  border-radius: 0.25rem;
+}
+
+.sunny {
+  width: 90%;
+  height: 50%;
+  border-radius: 0.25rem;
+}
+
+.jimmy {
+  width: 90%;
+  height: 70%;
+  border-radius: 0.25rem;
+}
+
+.mohit {
+  width: 90%;
+  height: 52%;
+  border-radius: 0.25rem;
+}
+
+.mohitName {
+  text-align: center;
+  color: white;
+  margin-top: -14rem;
+}
+
+.jimmyName {
+  text-align: center;
+  color: white;
+  margin-top: -6rem;
+}
+
+.smithName {
+  text-align: center;
+  color: white;
+  margin-top: -7rem;
+}
+
+.sunnyName {
+  text-align: center;
+  color: white;
+  margin-top: -14rem;
+}
+
+.rahulName {
+  text-align: center;
+  color: white;
+  margin-top: -12.5rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.5rem;
+}
+
+.Name {
+  text-align: center;
+  color: white;
+  margin-top: -5.5rem;
+}
+
+.SirName {
+  text-align: center;
+  color: white;
+  margin-top: -13.5rem;
+}
+
+.logo {
+  position: absolute;
+  bottom: 2rem;
+  left: 15rem;
+}
+
+.unit {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 15.8rem;
+}
+
+.Team_Home {
+  text-decoration: none;
+  font-size: 40px;
+  margin-left: 5rem;
+  color: linear-gradient(to right, #73b9ff, #00f260);
+}
+
+.link:active {
+  color: linear-gradient(to left, #73b9ff, #00f260);
+}
+
+@media (max-width: 600px) {
+  .bm-burger-button {
+    position: fixed !important;
+    width: 22px !important;
+    height: 22px !important;
+    left: 6px !important;
+    top: 18px !important;
+    outline: none !important;
+  }
+  .nimish {
+    width: 80% !important;
+    height: 65% !important;
+    border-radius: 0.25rem !important;
+  }
+  .smith {
+    width: 90%;
+    height: 70%;
+    border-radius: 0.25rem;
+  }
+  .sunny {
+    width: 90%;
+    height: 52%;
+    border-radius: 0.25rem;
+  }
+  .jimmy {
+    width: 90%;
+    height: 75%;
+    border-radius: 0.25rem;
+  }
+  .mohit {
+    width: 90%;
+    height: 52%;
+    border-radius: 0.25rem;
+  }
+  .rahul {
+  width: 80%;
+  height: 50%;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  }
+  .rahulName {
+  text-align: center;
+  color: white;
+  margin-top: -7.5rem;
+  }
+  .mohitName {
+    text-align: center;
+    color: white;
+    margin-top: -7rem;
+  }
+  .jimmyName {
+    text-align: center;
+    color: white;
+    margin-top: -2.5rem;
+  }
+  .smithName {
+    text-align: center;
+    color: white;
+    margin-top: -3.2rem;
+  }
+  .sunnyName {
+    text-align: center;
+    color: white;
+    margin-top: -7.5rem;
+  }
+  .SirName {
+    text-align: center !important;
+    color: #fff !important;
+    margin-top: -4.5rem !important;
+  }
+  .card-img-top {
+    width: 80% !important;
+    height: 90% !important;
+    border-radius: 0.25rem !important;
+  }
+  .Name {
+    text-align: center !important;
+    color: white !important;
+    margin-top: -1rem !important;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem !important;
+  }
+  .logo {
+    position: absolute !important;
+    bottom: 2rem !important;
+    left: 8.8rem !important;
+  }
+  .unit {
+    position: absolute !important;
+    bottom: 1.4rem !important;
+    left: 9.2rem !important;
+  }
+  .headerImg1,
+  .headerImg3 {
+    width: 2rem;
+    padding: 0.5rem;
+  }
+  .headerImg2 {
+    width: 12rem;
+    height: 2.6rem;
+    padding: 0.5rem;
+  }
+  .form {
+    width: 230px;
+    height: 150px;
+  }
+  .form h1 {
+    font-size: 1rem;
+  }
+  .img {
+    height: 3rem;
+  }
+  .Team_Home {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 1rem;
+  /* color: linear-gradient(to right, #73b9ff, #00f260); */
+  }
+}
